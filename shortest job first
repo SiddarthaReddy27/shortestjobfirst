@@ -5,6 +5,7 @@ int main()
     printf("enter burst times\n");
     for(i=0;i<4;i++)
     {
+        printf("\nenter the burst times of the process %d",i+1);
         scanf("\n%d\n",&bt[i]);
     }
     for(i=0;i<4;i++)
@@ -40,7 +41,7 @@ int main()
     for(i=0;i<4;i++)
     {
         tat[i]=wt[i]+bt[i];
-        printf("\nthe waiting time of %d is %d\n",i+1,tat[i]);
+        printf("\nthe turn around time of %d is %d\n",i+1,tat[i]);
     }
     for(i=0;i<4;i++)
     {
