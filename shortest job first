@@ -48,5 +48,5 @@ int main()
         sum=sum+tat[i];
     }
     avg=sum/4;
-    printf("\navg turn around time is %d\n",tat[i]);
+    printf("\navg turn around time is %d\n",avg);
 }
